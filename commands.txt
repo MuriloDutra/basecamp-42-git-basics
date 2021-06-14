@@ -1,0 +1,24 @@
+(git init): Initialize a git repository
+
+(git add): It adds or updates a file to the git repository
+	EXAPLES:
+		git add myNewFile
+		git add . //It adds all files
+
+(git rm --cached): It removes files from git repository, they become 'untracked'
+	EXAPLES:
+		git rm --cached myFile
+
+(git reset HEAD <file>): It removes files from git repository, they become 'untracked'
+	EXAPLES:
+		git reset HEAD myFile
+
+(git diff): It shows the changes in the files
+	EXAPLES:
+		git diff //It's going to show the changes of ALL files
+		git diff myFile //It's going to show the changes of ONE specific file
+
+(git checkout): It removes the changes in the changed files, they are going to be as they were before
+	EXAPLES:
+		git checkout file //This specific changed file is going to go back to his earlier state
+		git checkout * //All changed files are going to go back to their earlier state
